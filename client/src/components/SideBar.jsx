@@ -54,8 +54,8 @@ function Sidebar() {
           />
         </div>
       </div>
-      <div className='fixed bottom-0 left-0 right-0 bg-main-300 z-50 lg:hidden'>
-        <ul className='my-5 flex justify-around mx-auto pt-1'>
+      <div className='fixed bottom-0 left-0 right-0 h-14 bg-main-300 z-50 lg:hidden'>
+        <ul className='my-2 flex justify-around mx-auto '>
           {Links.map(({ name, url, icon: Icon }) => (
             <li className='text-secondary px-2' key={name}>
               <NavLink to={url}>
