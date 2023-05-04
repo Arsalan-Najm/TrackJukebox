@@ -25,7 +25,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className='fixed h-20 lg:h-[5rem] bottom-20 lg:bottom-0 left-0 right-0 flex bg-gradient-to-t z-40  from-main-200 to-main-100'>
+      <div className='fixed h-20 lg:h-[5rem] bottom-12 lg:bottom-0 left-0 right-0 flex bg-gradient-to-t z-40  from-main-200 to-main-100'>
         <Player />
       </div>
     </div>
